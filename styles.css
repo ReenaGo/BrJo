@@ -4,3 +4,14 @@
 .weather-div{
     background-color: #0f183c;
 }
+#current-weather-div{
+    background: linear-gradient(.717turn,#fff 1.16%,hsla(0,0%,100%,0) 192.15%)!important;
+    border: none!important;
+    border-radius: 20px;
+}
+.details{
+    border-radius: 20px;
+}
+#sun-div{
+    border-radius: 20px;
+}
