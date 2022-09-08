@@ -5,7 +5,7 @@
     background-color: #0f183c;
 }
 #current-weather-div{
-    background: linear-gradient(.717turn,#fff 1.16%,hsla(0,0%,100%,0) 192.15%)!important;
+    background: linear-gradient(.717turn,#fff 1.16%,rgba(209, 205, 236, 0) 192.15%)!important;
     border: none!important;
     border-radius: 20px;
 }
@@ -15,3 +15,37 @@
 #sun-div{
     border-radius: 20px;
 }
+.weather-forecast{
+    overflow-x: scroll;
+    border-radius: 20px;
+    background: linear-gradient(.717turn,#fff 1.16%,hsla(0,0%,100%,0) 192.15%)!important;
+}
+.city-image{
+    background-image: url('icons/houston.jpeg');
+    background-position: center;
+    border-radius: 20px;
+    background-size: cover;
+    padding: 100px 0;
+}
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #8f54a0 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 50px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #a2b3fb;
+    border-radius: 30px;
+    border: 3px solid #ffffff;
+  }
