@@ -21,7 +21,6 @@
     background: linear-gradient(.717turn,#fff 1.16%,hsla(0,0%,100%,0) 192.15%)!important;
 }
 .city-image{
-    background-image: url('icons/houston.jpeg');
     background-position: center;
     border-radius: 20px;
     background-size: cover;
